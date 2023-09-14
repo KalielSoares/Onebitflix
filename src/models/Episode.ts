@@ -1,6 +1,6 @@
 // src/models/Episode.ts
 
-import { sequelize } from '../database'
+import { sequelize } from '../database/seeders'
 import { DataTypes, Model, Optional } from 'sequelize'
 
 export interface Episode {
